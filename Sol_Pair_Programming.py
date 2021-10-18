@@ -43,11 +43,11 @@ else:
             turtle.forward(side)
             if x % 2 == 0:
                 turtle.left(175)
-                turtle.pencolor('blue')
+                turtle.pencolor('orange')
             else:
                 turtle.left(225)
-                turtle.pencolor('yellow')
+                turtle.pencolor('cyan')
 
-        turtle.end_fill()    
+        turtle.end_fill()       
 
 turtle.ht()
